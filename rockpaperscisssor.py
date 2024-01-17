@@ -3,7 +3,7 @@ while True:
  choices=["rock","paper","scissors"]
 
  Bot=random.choice(choices)
- player=input("rock,paper or scissor:")
+ player=input("rock,paper or scissors:")
  while True:
     if player in choices:
         print('player :',player)
